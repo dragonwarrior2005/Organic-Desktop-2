@@ -1,0 +1,25 @@
+#section3 {
+    margin: 130px 0;
+}
+.sec3top {
+    display: flex;
+    justify-content: space-between;
+}
+.related {
+    font-size: 35px;
+    font-weight: bold
+}
+.viewall {
+    color: #F47606;
+    font-size: 16px;
+}
+.products {
+    display: flex;
+    justify-content: space-evenly !important;
+}
+.sec3img img {
+    width: 100%;
+}
+.imgdescription {
+    text-align: center;
+}

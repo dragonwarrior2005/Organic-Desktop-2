@@ -1,0 +1,37 @@
+#searchproducts input {
+    border-radius: 10px;
+
+}
+input {
+    padding: 14px 0 14px 22px;
+    width: 364px;
+    height: 56px;
+    border: solid;
+    border-color: grey;
+}
+.searchproducts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sortby {
+    max-width: 267px !important;
+}
+.right-searchproducts {
+    display: flex;
+    justify-content: space-between;
+}
+.searchproducticons {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+.left-searchproducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    border-width: 1px;
+}

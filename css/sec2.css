@@ -1,0 +1,126 @@
+.sec2 {
+    display: flex;
+    margin-top: 50px;
+    
+}
+.photos {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    
+    
+}
+.photos .img {
+    display: flex;
+    justify-content: end;
+}
+.img img {
+    cursor: pointer;
+}
+.category, .pricing {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #C9C9C9;
+    padding-left: 30px;
+}
+.category ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.category ul li, .pricing ul li {
+    color: #676767;
+    line-height: 34px;
+    font-size: 16px;
+}
+.category h2, .pricing h2 {
+    padding: 22px 0;
+    border-bottom: #C9C9C9 solid 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pricing {
+    margin: 40px 0;
+    position: relative;
+}
+.pricing h2 {
+    width: 90%;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+.line p {
+    font-size: 110px;
+    color: #477018;
+}
+.green-line {
+    height: 4px;
+    width: 75%;
+    background-color: #477018;
+    position: absolute;
+    bottom: 113px;
+    left: 36px;
+}
+.stars {
+    padding: 15px 0;
+    }
+.stars img {
+    margin: 5px 0;
+}
+.product {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.picdescription {
+    padding-left: 15px;
+}
+.pic{
+    width: 100px;
+   
+}
+.pic img {
+    width: 100%;
+}
+.bestseller h2, .tags h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.tags {
+    width: 100%;
+}
+.tags a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #676767;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #C9C9C9;
+}
+.taglinks {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.page-numbers {
+    display: flex;
+    justify-content: end;    
+}
+.page-numbers a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    margin: 0 7.5px;
+    color: black;
+    font-size: 20px;
+    margin: 50px 7.5px 130px 7.5px;
+}
